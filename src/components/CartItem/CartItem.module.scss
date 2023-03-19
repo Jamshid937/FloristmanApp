@@ -1,0 +1,51 @@
+
+.cart-item{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  padding-bottom: 40px;
+ border-bottom: 1px solid #000;
+margin-top: 30px;
+ &__image{
+ width: 200px;
+ height: 200px;
+ margin-right: 25px;
+}
+&__name{
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  flex-basis: 400px;
+}
+&__trash{
+ width: 30px;
+ height: 30px;
+ color: #898989;
+ cursor: pointer;
+}
+&__controller{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100px;
+ background:#d2cece ;
+font-size: 18px;
+font-weight: bold;
+margin-left: 30px;
+ & button{
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+ background: transparent;
+ cursor: pointer;
+ font-size: 23px;
+}
+}
+
+&__total{
+flex-grow: 1;
+text-align: right;
+
+}
+}

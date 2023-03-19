@@ -1,0 +1,85 @@
+@import "../../theme.scss";
+
+.header {
+  padding-top: 30px;
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__hard {
+    width: 30px;
+    height: 30px;
+    color: $green;
+  }
+
+  &__bag {
+    width: 30px;
+    height: 30px;
+    color: $green;
+    margin-left: 20px;
+
+    &-wrapper{
+    position: relative;
+    }
+    &-count{
+     position: absolute;
+     top: -10px;
+     right: -10px;
+     border-radius: 10px;
+     background: $green; 
+    color: #fff;
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+    border-radius: 7px;
+
+    // width: 100%;
+    margin: 40px auto;
+  }
+
+  &__link {
+    text-decoration: none;
+    padding: 15px 15px 10px;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+    display: inline-block;
+
+    &::after {
+      content: "";
+      height: 2px;
+      width: 100%;
+      display: block;
+      background: $white;
+      transition: 0.4s transform;
+      transform: scaleX(0);
+      transform-origin: left;
+      margin-top: 5px;
+    }
+
+    &:hover::after,
+    &_active::after {
+      transform: scaleX(1)
+    }
+
+  }
+}
+
+
+// sidde bar
+

@@ -1,0 +1,30 @@
+@import "../../theme.scss";
+
+.badge {   
+    padding: 20px;
+    background: #f1f1f1;
+    margin-top: 20px;
+//    display: flex;
+//    justify-content: space-between;
+    background-image:url(../../../src/images/background.jpg) ;
+    &__content { 
+        max-height: 380px;       
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid #b1b1b1;
+        border-image: 1 linear-gradient(to bottom, #8b8b8b, transparent 40% 60%, #8b8b8b);
+        
+       &__title {
+            font-size: 50px;
+            color: $blue;
+        }
+        &__text {
+            font-size: 22px;
+            max-width: 500px;
+            color: $blue;
+        }
+    }
+}

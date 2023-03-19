@@ -1,0 +1,45 @@
+@import "../../theme.scss";
+
+.title {
+    text-align: left;
+    color: $green;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+    &__description {
+        font-size: 18px;
+        color: $blue;
+        margin-bottom: 15px;
+    }
+
+    &__price {
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 15px;
+    }
+}
+
+.order-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+    background: #55B74C;
+    border-radius: 7px;
+   cursor: pointer;
+    padding: 0 50px;
+    margin-top: 35px;
+    width: max-content;
+    border: none;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    
+}
