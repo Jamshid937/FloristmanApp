@@ -6,3 +6,17 @@
   flex-wrap: wrap;
   padding: 0;
 }
+
+@media screen and (max-width:912px) {
+  .cards{
+   display: grid;
+   grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width:527px) {
+  .cards{
+   display: grid;
+   grid-template-columns: auto;
+  }
+}

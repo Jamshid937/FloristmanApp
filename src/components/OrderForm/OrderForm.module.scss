@@ -73,3 +73,21 @@
        }
     }
 }
+
+@media only screen and (max-width: 785px) {
+    .order-form__image{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .order-form__image{
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .order-form__image{
+        display: none;
+    }
+}

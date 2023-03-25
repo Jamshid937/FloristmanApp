@@ -30,7 +30,7 @@ const DiscountCarousel = () => {
  <Swiper
       navigation={true}
       modules={[Navigation]}
-      slidesPerView={3}
+      slidesPerView={1}
     >
        {data.map((item) => (
        <SwiperSlide key={item.id}>
@@ -38,8 +38,6 @@ const DiscountCarousel = () => {
         </SwiperSlide>
     )) } 
       
-  
-      ...
 </Swiper>}
     </Container>
   )

@@ -4,7 +4,7 @@
     padding: 15px;
     &__title {
         font-weight: 700;
-        font-size: 22px;
+        font-size: 30px;
         line-height: 30px;
         color: #000;
         margin: 24px 0;
@@ -69,3 +69,10 @@
      cursor: pointer;
     }
 }
+
+
+@media only screen and (max-width:510px){
+    .card__title{
+   font-size: 35px;
+ } 
+ }

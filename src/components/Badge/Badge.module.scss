@@ -28,3 +28,57 @@
         }
     }
 }
+
+@media only screen and (max-width: 658px) {
+    .badge__content__text{
+        font-size: 19px;
+    }
+
+    .badge__content__title{
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 593px) {
+    .badge__content__text{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .badge__content__title{
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    // .badge__content__text{
+    //     font-size: 18px;
+    //     text-align: center;
+    // }
+
+    .badge__content__title{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    // .badge__content__text{
+    //     font-size: 18px;
+    //     text-align: center;
+    // }
+
+    .badge__content__title{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .badge__content__text{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .badge__content__title{
+        font-size: 30px;
+    }
+}
