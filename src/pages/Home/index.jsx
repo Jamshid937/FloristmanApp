@@ -5,7 +5,7 @@ import DiscountCarousel from '../../components/DiscountsCarusel'
 import Header from '../../components/Header'
 import OrderForm from '../../components/OrderForm'
 import Container from '../../layout/container'
-import classes from './Home.module.scss'
+
 
 const Home = () => {
   return (
