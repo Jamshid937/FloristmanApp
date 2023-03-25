@@ -1,0 +1,1 @@
+{"version":3,"sources":["../my-app/src/pages/Favorite/favorite.module.scss","favorite.module.css"],"names":[],"mappings":"AAAA;EACI,eAAA;ACCJ;;ADCG;EACE,aAAA;EACA,eAAA;EACA,UAAA;ACEL;;ADCG;EACC;IACE,aAAA;IACA,qCAAA;ECEJ;AACF;ADCG;EACC;IACE,aAAA;IACA,gCAAA;ECCJ;AACF;ADCG;EACC;IACE,aAAA;IACA,2BAAA;ECCJ;AACF","file":"favorite.module.css"}
