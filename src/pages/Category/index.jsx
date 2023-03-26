@@ -10,6 +10,7 @@ import { useLocation, useParams } from 'react-router-dom'
 
 import classes from './Category.module.scss'
 import useGetData from '../../hooks/useGetData'
+import Footer from '../../components/Footer'
 
 
 
@@ -36,6 +37,7 @@ const CategoryPage = () => {
         )}
     
       </Container>
+      <Footer />
      </>
   )
 }

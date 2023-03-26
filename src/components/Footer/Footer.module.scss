@@ -1,0 +1,33 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background: #2B2B2B;
+padding: 45px 76px 45px 74px ;
+margin-top: 30px;
+  &__icons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+&__tell{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #55B74C;
+}
+}
+
+@media screen and (max-width:475px) {
+    .footer{
+    flex-direction: column;
+
+    &__tell{
+    margin-top: 20px;
+    }
+    }
+}
+

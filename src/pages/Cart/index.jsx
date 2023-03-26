@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import CartItem from '../../components/CartItem'
+import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Title from '../../components/Title'
 import Container from '../../layout/container'
@@ -33,6 +34,7 @@ const Cart = () => {
       <button className={classes['order-btn']}>Send</button>
       </>)}
       </Container>
+      <Footer />
     </>
   )
 }

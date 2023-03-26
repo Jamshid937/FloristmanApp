@@ -6,6 +6,7 @@ import ProductCard from '../../components/ProductCard'
 
 import Title from '../../components/Title'
 import classes from './favorite.module.scss'
+import Footer from '../../components/Footer'
 const Favorite = () => {
     const { like, cart} = useSelector((state) => state)
     const items = Object.values(like)
@@ -28,6 +29,7 @@ const Favorite = () => {
                 ))}
 
             </Container>
+            <Footer />
           </> 
            ):(
                 <Title>You don't have favorite products😢</Title>

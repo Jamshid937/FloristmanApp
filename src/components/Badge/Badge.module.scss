@@ -25,6 +25,7 @@
             font-size: 22px;
             max-width: 500px;
             color: $blue;
+            text-align: center;
         }
     }
 }
@@ -32,6 +33,7 @@
 @media only screen and (max-width: 658px) {
     .badge__content__text{
         font-size: 19px;
+        text-align: center;
     }
 
     .badge__content__title{
@@ -51,10 +53,7 @@
 }
 
 @media only screen and (max-width: 541px) {
-    // .badge__content__text{
-    //     font-size: 18px;
-    //     text-align: center;
-    // }
+
 
     .badge__content__title{
         font-size: 36px;
@@ -62,10 +61,7 @@
 }
 
 @media only screen and (max-width: 462px) {
-    // .badge__content__text{
-    //     font-size: 18px;
-    //     text-align: center;
-    // }
+
 
     .badge__content__title{
         font-size: 30px;

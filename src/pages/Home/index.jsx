@@ -2,6 +2,7 @@ import React from 'react'
 import Badge from '../../components/Badge'
 import CategoriesBlock from '../../components/CategoriesBlock'
 import DiscountCarousel from '../../components/DiscountsCarusel'
+import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import OrderForm from '../../components/OrderForm'
 import Container from '../../layout/container'
@@ -17,6 +18,7 @@ const Home = () => {
       <CategoriesBlock />
       <DiscountCarousel />
       <OrderForm />
+      <Footer />
     </>
   )
 }
