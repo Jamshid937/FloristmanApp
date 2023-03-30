@@ -86,8 +86,15 @@
     }
 }
 
+
+
 @media only screen and (max-width: 695px) {
     .order-form__image{
         display: none;
+    }
+}
+@media only screen and (max-width: 372px) {
+    .order-form__input{
+       padding: 15px 0;
     }
 }
