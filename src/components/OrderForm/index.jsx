@@ -31,9 +31,8 @@ const OrderForm = () => {
     if (e.target.name === 'tell' && !validatePhoneContent(e.target.value)) return
     setFields((prev) => ({...prev, [e.target.name] : e.target.value}))
   }
-  var telegram_bot_id = "6044421804:AAHHoJoX1szgVpwZBVxVxiAH6YKtBHzlL2M"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
-  //chat id
-  var chat_id = 602198486; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
+  var telegram_bot_id = "6044421804:AAHHoJoX1szgVpwZBVxVxiAH6YKtBHzlL2M";
+  var chat_id = 602198486; 
   var u_name, tell, message;
   var ready = function() {
       u_name = fields.name;
@@ -59,7 +58,6 @@ const OrderForm = () => {
         })
     };
     $.ajax(settings).done(function(response) {
-        // console.log(response);
     });
 
 
