@@ -33,7 +33,7 @@ export const getItemsCount = createSelector(
   state => Object.values(state.cart),
 
   
-  (cartItems) => cartItems.reduce((acc,item)=>acc + item.quantity,0)
+  (cartItems) => cartItems.reduce((acc,item) => acc + item.quantity,0)
   )
 
 export const {addToCart,removeFromCart,addOne,removeOne} = cartSlice.actions

@@ -83,7 +83,7 @@ e.preventDefault()
             className={classes['order-form__input']} />
         <input 
         type="tell"
-         placeholder='Phone Number*'
+         placeholder='+998'
            onChange={handleChange}
             value={fields.tell}
              name='tell'

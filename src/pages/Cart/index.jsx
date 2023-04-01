@@ -14,19 +14,24 @@ const Cart = () => {
     const total = items.reduce((acc, item) => acc + item.price * item.quantity, 0)
 
 
-    var telegram_bot_id = "6044421804:AAHHoJoX1szgVpwZBVxVxiAH6YKtBHzlL2M"; 
-    var chat_id = 602198486; 
-    var  message;
+    let telegram_bot_id = "6044421804:AAHHoJoX1szgVpwZBVxVxiAH6YKtBHzlL2M"; 
+    let chat_id = 602198486; 
+    let  message, image;
      
-    var ready = function() {
+    let ready = function() {
       const items =  Object.values(cart)
-      message = items.reduce((item) =>  "Ismi: " +  item.name + " \quantity: " + item.quantity + " \price: " + total )
+      message = items.reduce((acc, item) => acc + 
+      " Ismi: " +  item.name + 
+      " \quantity: " + item.quantity + 
+      " \price: " + total +
+       " \image: " + item.images, 0)
   };
 
 
-    var sendTelegramCard = function(e) {
+
+    let sendTelegramCard = function(e) {
       ready();
-      var settings = {
+      let settings = {
           "async": true,
           "crossDomain": true,
           "url": "https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
